@@ -41,7 +41,7 @@ module.exports = async function ({
 
     if (cmd.toLowerCase() === "imagine") {
       if (!input) {
-        return api.sendMessage("🖼️ Please write what to imagine. Example: `imagine forest made of glass", message.threadID);
+        return api.sendMessage("🖼️ Please write what to imagine. Example: -imagine forest made of glass", message.threadID);
       }
 
       try {
